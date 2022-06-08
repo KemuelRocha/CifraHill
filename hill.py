@@ -1,3 +1,5 @@
+
+
 # Python3 code to implement Hill Cipher
  
 keyMatrix = [[0] * 3 for i in range(3)]
@@ -33,7 +35,7 @@ def HillCipher(message, key):
     getKeyMatrix(key)
  
     # Generate vector for the message
-    for i in range(3):
+    for i in range(6):
         messageVector[i][0] = ord(message[i]) % 65
  
     # Following function generates
