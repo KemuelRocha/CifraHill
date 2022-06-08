@@ -45,7 +45,7 @@ def HillCipher(message, key):
     CipherText = []
     for i in range(3):
         CipherText.append(chr(cipherMatrix[i][0] + 65))
- 
+        
     # Finally print the ciphertext
     print("Ciphertext: ", "".join(CipherText))
  
@@ -58,7 +58,7 @@ def main():
     linhas = arq.readlines()
     for linha in linhas:
         print(linha)
-        
+
     message = linha 
  
     # Get the key
